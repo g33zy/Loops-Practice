@@ -1,41 +1,41 @@
-// let numList = ''
-// let i = 0
+let numList = ''
+let i = 0
 
-// do {
-//     i++
-//     numList = numList + i;
-// } while ( i < 1000);
+do {
+    i++
+    numList = numList + i;
+} while ( i < 1000);
 
-// console.log(numList)
+console.log(numList)
 
-// let i = 0;
-// const x = 1000;
+let i = 0;
+const x = 1000;
 
-// do{
-//   console.log(i);
-//   i++;
-// } while (i <= x);
+do{
+  console.log(i);
+  i++;
+} while (i <= x);
 
-// let person = {
-//     firstName: "Jane",
-//     lastName: "Doe",
-//     birthDate: "Jan 5, 1925",
-//     gender: "female"
-//   };
-
-
-
-//   const keyLogs = (person) => {
-//     console.log(Object.keys(person))
-//   };
-//   keyLogs(person);
+let person = {
+    firstName: "Jane",
+    lastName: "Doe",
+    birthDate: "Jan 5, 1925",
+    gender: "female"
+  };
 
 
 
-//   const objEntries = (person) => {
-//     console.log(Object.entries(person))
-//   };
-//   objEntries(person);
+  const keyLogs = (person) => {
+    console.log(Object.keys(person))
+  };
+  keyLogs(person);
+
+
+
+  const objEntries = (person) => {
+    console.log(Object.entries(person))
+  };
+  objEntries(person);
 
  
 
@@ -115,6 +115,9 @@ console.log(beforeNinety1)
 //     return person.gender === "male";
 //   });
 //   console.log(onlyMale)
+
+
+// .find() and .findIndex() scratch made
   
 let nums = [1, 3, 6, 8, 9, 12, 15, 55, 100]
 const myFind = (arr, func) => {
